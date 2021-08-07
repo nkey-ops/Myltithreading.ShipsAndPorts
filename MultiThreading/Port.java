@@ -13,11 +13,7 @@ public class Port extends ActionOverContainer {
 	public Port(Container container, int limiteOfContainers, String name) throws IllegalArgumentException {
 		super(container, limiteOfContainers);
 		this.name = name;
-
 		piers = getPiers(5);
-
-		// System.out.printf("limOfCont %d numOfCont %d ", limiteOfContainers,
-		// container.getNumberOfContainers());
 	}
 
 	public String getName() {
