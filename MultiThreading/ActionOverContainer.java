@@ -13,7 +13,6 @@ public abstract class ActionOverContainer {
 		if (limiteOfContainers < 0 || numberOfContainers < 0) {
 			throw new IllegalArgumentException();
 		}
-//		System.out.printf("limOfCont %d numOfCont %d ", limiteOfContainers, container.getNumberOfContainers());
 
 		this.container = container;
 		numberOfContainers = container.getNumberOfContainers();
